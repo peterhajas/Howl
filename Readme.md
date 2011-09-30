@@ -3,6 +3,8 @@ Howl, a visualizer for the Yelp! academic dataset
 
 by Peter Hajas
 
+![Troy, NY as visualized by Howl](http://i.imgur.com/CTOmS.png "Troy, NY")
+
 About
 -----
 
