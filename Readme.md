@@ -19,11 +19,11 @@ Usage
 
 Simply run Howl with a city, state and an image width
 
-`./Howl.py Troy,NY 1024`
+`./Howl.py Troy,NY 1024 yelp_academic_dataset.json`
 
 or with ALL as a location, to generate an image for the entire dataset:
 
-`./Howl.py ALL 1024`
+`./Howl.py ALL 1024 yelp_academic_dataset.json`
 (this will probably take a while)
 
 and Howl will generate an image and KML file for your location.
