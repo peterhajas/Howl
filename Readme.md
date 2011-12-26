@@ -1,16 +1,20 @@
-Howl, a visualizer for the Yelp! academic dataset
-=================================================
+Howl, a series of tools for the Yelp! academic dataset
+======================================================
 
 by Peter Hajas
 
-![Troy, NY as visualized by Howl](http://i.imgur.com/CTOmS.png "Troy, NY")
+![Troy, NY as visualized by Howl.py](http://i.imgur.com/CTOmS.png "Troy, NY")
 
-(Troy, NY as visualized by Howl)
+(Troy, NY as visualized by Howl.py)
 
 About
 -----
 
-Howl is a simple python tool for visualizing location reviews around your town.
+Howl is a series of simple Python scripts for analyzing the Yelp! Academic Dataset, used for my research with [Dr. Krishnamoorthy](http://cs.rpi.edu/~moorthy)
+
+Source files have explanations in them after the license header.
+
+Howl.py is a simple python tool for visualizing location reviews around your town.
 
 The more red/white a point is, the better the reviews.
 
@@ -18,8 +22,8 @@ Howl requires Heatmap.py, the Python Image Library and a recent Python version.
 
 Howl was designed for use with the [Yelp! Academic Dataset](http://www.yelp.com/academic_dataset)
 
-Usage
------
+Howl.py Usage
+-------------
 
 Simply run Howl with a city, state and an image width
 
@@ -43,7 +47,7 @@ It's really neat!
 Legal
 -----
 
-Howl is Copyright 2011 Peter Hajas. It's BSD licensed. The full text of the
+All of Howl is Copyright 2011 Peter Hajas. It's BSD licensed. The full text of the
 license can be found in Howl.py.
 
 The work in Howl does not imply endorsement by past, current or future
