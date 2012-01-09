@@ -43,7 +43,7 @@ count = 0
 for line in yelpFile:
     data = json.loads(line)
     if data["type"] == "business":
-        if data["city"].find(query) != -1 or data["state"].find(query) != -1:
+        if data["city"].find(query) != -1:
             # This is the city / state they're interested in, keep track of
             # this business id:
             
