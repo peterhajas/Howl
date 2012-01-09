@@ -56,3 +56,4 @@ for line in yelpFile:
             matchingFile.write("{} {} {}\n".format(id, lat, lon))
             
 print "Found {} businesses matching place query {}".format(count, query)
+matchingFile.close()
